@@ -14,7 +14,7 @@ For example, consider <strong>A</strong>, an <i>m x n</i> matrix, and <strong>B<
 #### Source File: [matmul.v](./matmul.v)
 #### Testbench: [tb_matmul.v](./tb_matmul.v)
 
-In this code, two 32 bit matrices are created, A and B, yielding an output Res matrix of size 32 bits as well.
+In this code, two 32 bit (2*2 and 8 bits wide) matrices are created, A and B, yielding an output Res matrix of size 32 bits as well. 
 Matrices, A1, B1, and Res1 are used to convert 1D array to 2D array, where A1, B1, and Res1 are populated from A, B, and Res, respectively, as 2D arrays cannot be outputs of modules. A1 and B1 are multiplied using 3 nested for-loops and the product is stored in Res1. Res1 is converted back to Res, a 1D array as the output.
 
 ### Simulation Results
