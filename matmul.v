@@ -37,7 +37,7 @@ module matmul(A,B,Res);
 
     always@ (A or B)
     begin
-    //convert to 3D matrix
+    //convert to 2D matrix
         {A1[0][0],A1[0][1],A1[1][0],A1[1][1]} = A;
         {B1[0][0],B1[0][1],B1[1][0],B1[1][1]} = B;
         i = 0;
